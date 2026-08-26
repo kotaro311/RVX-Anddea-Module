@@ -1,7 +1,7 @@
 enable-module-update = true
-patches-version = "latest"
-#patches-version = "dev"
-cli-version = "latest"
+#patches-version = "latest"
+patches-version = "dev"
+cli-version = "dev"
 
 [YouTube-Extended]
 Enable=true
@@ -10,9 +10,4 @@ patches-source = "anddea/revanced-patches"
 cli-source = "MorpheApp/morphe-cli"
 build-mode = "module"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-excluded-patches = "'Custom branding name for YouTube' 'Swipe controls'"
-patcher-args = "-e 'Theme' -OlightThemeBackgroundColor=@android:color/white -OdarkThemeBackgroundColor=@android:color/black"
-
